@@ -13,4 +13,5 @@ interface UserRepository : JpaRepository<UserEntity, Long>, UserRepoCustom {
 
 class UserRepoCustomImpl : QuerydslRepositorySupport(UserEntity::class.java), UserRepoCustom {
 
+
 }
